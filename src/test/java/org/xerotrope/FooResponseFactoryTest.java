@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.hamcrest.CoreMatchers.instanceOf;
 import static org.junit.Assert.*;
 
-public class FooResponseV1ResponseFactoryTest {
+public class FooResponseFactoryTest {
 
     FooResponseFactory subject = new FooResponseFactory();
 
