@@ -1,7 +1,13 @@
 ### Spring Controller Demo
 
-A simple SpringBoot demo application with a `@RestController` that returns
-different types of responses based on the version requested.
+A simple [Spring Boot](http://projects.spring.io/spring-boot/)
+demo application with a `@RestController` that returns
+different types of responses based on the version requested:
+
+- `FooResponseV1` for version 1
+- `FooResponseV2` for version 2, or unspecified
+
+(both implement the `FooResponse` interface)
 
 Additionally, an `ErrorReponse` type is thrown if a bad version is requested.
 
